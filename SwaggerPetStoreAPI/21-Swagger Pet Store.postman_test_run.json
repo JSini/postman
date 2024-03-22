@@ -1,0 +1,146 @@
+{
+	"id": "d4285f13-df89-4e7f-b582-068460f3024c",
+	"name": "21-Swagger Pet Store",
+	"timestamp": "2024-03-22T19:05:34.578Z",
+	"collection_id": "16398300-ed984457-d7c0-4b7c-bdaa-563bbb7b6e38",
+	"folder_id": 0,
+	"environment_id": "16398300-918aef4a-8f49-4f61-8f10-f90f8333272d",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-03-22T19:05:32.555Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "056a4535-3c41-4ab4-b5f9-43d1c9243c07",
+			"name": "Create User",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6c5bf341-56f4-42e4-ab6b-0ec4539548bb",
+			"name": "Get User By Name",
+			"url": "https://petstore.swagger.io/v2/user/Louie.Ullrich62",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "03d94236-8a4c-41db-9e85-06c6fe3c070a",
+			"name": "Update User",
+			"url": "https://petstore.swagger.io/v2/user/Jaron47",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cca32346-3a28-497c-9065-8da08a7d2cf2",
+			"name": "Delete User",
+			"url": "https://petstore.swagger.io/v2/user/Jaron47",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1069,
+	"collection": {
+		"requests": [
+			{
+				"id": "056a4535-3c41-4ab4-b5f9-43d1c9243c07",
+				"method": "POST"
+			},
+			{
+				"id": "6c5bf341-56f4-42e4-ab6b-0ec4539548bb",
+				"method": "GET"
+			},
+			{
+				"id": "03d94236-8a4c-41db-9e85-06c6fe3c070a",
+				"method": "PUT"
+			},
+			{
+				"id": "cca32346-3a28-497c-9065-8da08a7d2cf2",
+				"method": "DELETE"
+			}
+		]
+	}
+}
